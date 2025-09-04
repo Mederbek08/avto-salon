@@ -1,0 +1,40 @@
+
+.layout {
+    display: flex;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+.sidebar{
+    width: 200px;
+    padding-top: 28px;
+    background: #F7F7F9;
+    height: 100vh;
+
+}
+
+.sidebar__logo img{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.sidebar__logo nav{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    a {
+        padding: 8px 26px;
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+    }
+}
+
+.sidebar__icons {
+    padding-left: 30px;
+    padding-top: 140px;
+    display: flex;
+    gap: 8px;
+
+}

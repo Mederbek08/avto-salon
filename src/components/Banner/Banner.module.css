@@ -1,0 +1,16 @@
+
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    h1 {
+        color: #FFFFFF;
+        font-size: 42px;
+        font-weight: 700;
+        width: 666px;
+        margin: auto;
+        text-align: center;
+    }
+}
