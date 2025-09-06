@@ -1,10 +1,9 @@
 
 
-
-import React from 'react'
 import Layout from './layout/Layout'
 import Header from './components/Header/Header'
 import Banner from './components/Banner/Banner'
+import FilterAuto from './components/FilterAuto/FilterAuto'
 
 const App = () => {
   return (
@@ -12,6 +11,7 @@ const App = () => {
       <Layout>
         <Header />
         <Banner />
+        <FilterAuto />
       </Layout>
     </div>
   )

@@ -47,7 +47,20 @@ const Layout = (props) => {
         </div>
 
         <div className={styles.sidebar__icons}>
-            {[instagram, whatsapp, youtube].map(icon => <img  key={icon} src={icon} alt="" />)}
+                   {[ 
+            { href: "https://instagram.com/", icon: instagram, alt: "Instagram" },
+            { href: "https://web.whatsapp.com/", icon: whatsapp, alt: "WhatsApp" },
+            { href: "https://youtube.com/", icon: youtube, alt: "YouTube" },
+          ].map((s) => (
+            <a
+              key={s.alt}
+              href={s.href}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={s.icon} alt={s.alt} />
+            </a>
+          ))}
         </div>
       </div>
       <div className={styles.content}>{props.children}</div>
