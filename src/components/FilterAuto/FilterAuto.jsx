@@ -7,10 +7,10 @@ const FilterAuto = () => {
       {/* Чекбокстар */}
       <div className={styles.filter__top}>
         <label>
-          <input type="checkbox" defaultChecked /> Полная пошлина
+          <input type="checkbox" defaultChecked  /> Полная пошлина
         </label>
         <label>
-          <input type="checkbox" defaultChecked /> Распил или конструктор
+          <input type="checkbox" defaultChecked  /> Распил или конструктор
         </label>
       </div>
 
