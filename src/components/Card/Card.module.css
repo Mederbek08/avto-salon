@@ -5,8 +5,12 @@
     padding: 16px;
     padding-right: 32px;
     border: 1px solid #E2E2E2;
+    margin-top: -20px;
     border-radius: 4px;
     margin-bottom: 16px;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .cardImg {
@@ -69,15 +73,13 @@
     }
     button {
     background: rgba(115, 219, 67, 1) !important;
+    cursor: pointer;
     color: rgba(255, 255, 255, 1) !important;
-
     border: none;
     border-radius: 35px;
     padding:  10px;
     font-size: 14px;
     font-weight: 500;
-    color: #4d0808;
-    cursor: pointer;
     float: right; 
     }
     button:hover {

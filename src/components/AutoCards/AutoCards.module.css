@@ -12,10 +12,28 @@
 
 .popular h2+div input {
     margin-right: 8px;
+    margin-left: 60px;
+    margin-bottom: -4px;
+
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    cursor: grabbing;
+    outline: green;
+
+    transition: border-width 0.2s ease, border-color 0.2s ease;
 }
 
+.popular h2+div input:checked {
+    border: 5px solid red;
+}
 .wrap {
     padding-top: 37px;
     padding-left: 43px;
     padding: 43px;
+}
+.red+div input{
+    border: 4px solid rgba(205, 0, 0, 1)
 }

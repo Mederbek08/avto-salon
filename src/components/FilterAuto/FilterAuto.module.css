@@ -90,21 +90,23 @@ select {
 }
 
 /* Найти кнопка */
-button {
-  background: rgba(205, 0, 0, 1) !important;
-
-  color: #fff !important;
-  border: none;
-  padding: 8px 16px;
-  border-radius: 4px;
-  font-weight: 500;
-  cursor: pointer;
-  transition: 0.2s;
+.yearBlock {
+  button {
+    background: rgba(205, 0, 0, 1);
+  
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  button:hover {
+    background: #cc0000 ;
+  }
 }
 
-button:hover {
-  background: #cc0000 !important;
-}
 
 /* Төмөн жагы */
 .filter__bottom {

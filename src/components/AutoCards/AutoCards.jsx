@@ -13,7 +13,7 @@ const AutoCards = () => {
                 <div><input type="radio" name='type'/> <span>Под заказ</span></div>
             </div>
         </div>
-    </div>
+    </div>        
   )
 }
 
