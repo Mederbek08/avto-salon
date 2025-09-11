@@ -5,6 +5,7 @@ import FilterAuto from "./components/FilterAuto/FilterAuto";
 import AutoCards from "./components/AutoCards/AutoCards";
 import Card from "./components/Card/Card";
 import Reviews from "./components/Reviews/Reviews";
+import BuyComponent from "./components/BuyComponent/BuyComponent";
 
 const cars = [
   {
@@ -62,6 +63,7 @@ const App = () => {
           })}
         </div>
         <Reviews />
+        <BuyComponent />
       </Layout>
 
     </div>

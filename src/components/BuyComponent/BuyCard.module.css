@@ -1,0 +1,54 @@
+.buy {
+    display: flex;
+    gap: 41px;
+    margin-left: 40px;
+}
+
+.image img {
+    width: 480px;
+    margin-top: 15px;
+}
+
+.info h2 {
+    text-align: left;
+    margin-top: 40px;
+    padding: 18px;
+    font-weight: 700;
+    font-size: 26px;
+    margin-left: -21px;
+}
+.lastCard {
+    border: 2px dashed red;
+    border-radius: 9px;
+    width: 171px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    img {
+        width: 30px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    h3 {
+        display: flex;
+        text-align: center;
+    }
+}
+
+.cards {
+    display: flex;
+    gap: 56px;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(4, 4fr);
+    margin-top: 40px;
+}
+
+.cardDescription {
+  white-space: pre-line; /* переносит \n в реальный перенос */
+}
+
+.cardTitle {
+  white-space: pre-line; /* переносит \n в реальный перенос */
+}
